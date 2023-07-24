@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #c6c6c633;
+}
+
+
+.banner_topo {
+  display: flex;
+  justify-content: center;
+  background: #fad61e;
+  height: 300px;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.MuiBox-root .barra_pesquisa {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  background: #ffffff9e;
+  color: black;
+}
+
+.MuiBox-root .barra_pesquisa:hover{
+  background-color: rgb(255 255 255);
+  color: black;
+}
+
+.MuiBox-root .barra_pesquisa input{
+  width: 100%;
+}
+
+.MuiBox-root.css-z7mtfw {
+  display: flex;
+  align-items: center;
+}
+
+.stats_bar{
+  margin-top: 5px !important;
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.stats_hp_bar{
+  background-color: #27ad0175;
+}
+.stats_attack_bar{
+  background-color: #e03d3d99;
+}
+.stats_espDefense_bar{
+  background-color:#6cd4ffb3;
+}
+.stats_espAttack_bar{
+  background-color:#b300a794;
+}
+.stats_defense_bar{
+  background-color: #004cff9e;
+}
+
+p.MuiTypography-root.MuiTypography-body2.stats_hp.css-r40f8v-MuiTypography-root {
+  display: flex;
+}
+
+.stats_bar div{
+  text-transform: uppercase;
+  min-width: 265px;
+  color: black;
+}
+
+.css-h93ljk-MuiTypography-root {
+  text-transform: capitalize;
+}
+
+
+.css-o69gx8-MuiCardMedia-root.img_card {
+  width: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.css-1gcg9uy-MuiPaper-root-MuiCard-root {
+  cursor: pointer;
+}
+
+.css-1gcg9uy-MuiPaper-root-MuiCard-root:hover {
+  transform: scale(1.05);
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 74%, rgba(250,214,30,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 74%, rgba(250,214,30,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 74%, rgba(250,214,30,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#fad61e",GradientType=1);
+  border: 2px solid #fad61e;
+}
+
+.css-h93ljk-MuiTypography-root.name_card {
+  border: 1px solid #00000012;
+  border-radius: 20px 0;
+  text-align: center;
+  background: #fad61e;
+  font-weight: bold;
+    font-size: 20px;
+}
+
+p.MuiTypography-root.MuiTypography-body2.type_card {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 65px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 6px;
+  z-index: 1000;
+  background-color: #919191;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+p.MuiTypography-root.MuiTypography-body2.info_card.css-r40f8v-MuiTypography-root {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media(max-width: 760px){
+  img.logo {
+    width: 40px;
+    height: auto;
+}
+
+.banner-img img {
+  width: 100%;
+}
+.banner_topo {
+  height: auto;
+}
+
+.MuiBox-root .barra_pesquisa {
+  max-width: 200px;
+  height: 34px;
+  margin-top: 8px;
+}
+
+.banner-img {
+  margin-top: 15px;
+}
+
+.css-zow5z4-MuiGrid-root>.MuiGrid-item {
+  max-width: inherit;
+  padding: 0;
+}
+
+.css-zow5z4-MuiGrid-root {
+  margin: 0;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
+}
